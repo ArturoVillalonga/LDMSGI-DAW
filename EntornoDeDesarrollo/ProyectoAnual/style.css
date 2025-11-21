@@ -1,0 +1,28 @@
+body{
+    background-color: grey;
+}
+.header{
+    background-color: lightblue;
+}
+.contenedor{
+    background-color: black;
+    padding: ;
+}
+.tabla{
+    background-color: red;
+}
+.carteleraDestacada{
+    background-color: yellow;
+}
+.cartelera{
+    background-color: orange;
+}
+.contactanos{
+    background-color: green;
+}
+.historia{
+    background-color: purple;
+}
+.NuevosEstrenos{
+    background-color: pink;
+}
