@@ -1,28 +1,231 @@
+
 body{
     background-color: grey;
+    margin-top: -54px;
+    margin-left: -1px;
+    margin-right: -1px;
+    margin-bottom: -20px;
 }
 .header{
     background-color: lightblue;
+    height: 125px;
+    text-align: center;
+    font-size: 40px;
 }
 .contenedor{
     background-color: black;
-    padding: ;
+    width: 65%;
+    display: inline;
+    float: left;
+    text-align: center;
+    font-size: 30px;
 }
 .tabla{
     background-color: red;
+    width: 35%;
+    display: inline;
+    float: right;
+    text-align: center;
+    font-size: 30px;
 }
 .carteleraDestacada{
     background-color: yellow;
+    height: 240px;
+    align-content: center;ç
+    
 }
 .cartelera{
     background-color: orange;
+    height: 574px;
+    align-content: center;
 }
 .contactanos{
     background-color: green;
+    height: 130px;
+    align-content: center;
 }
 .historia{
     background-color: purple;
+    height: 180px;
+    align-content: center;
 }
 .NuevosEstrenos{
     background-color: pink;
+    height: 504px;
+    align-content: center;
+}
+
+
+
+.volver{
+    background-color: lightgreen;
+    width: 20%;
+    height: 100px;
+    display: inline;
+    float: left;
+    text-align: center;
+    font-size: 40px;
+    align-content: center;
+    
+}
+.CD{
+    background-color: lightcoral;
+    width: 80%;
+    height: 100px;
+    display: inline;
+    float: right;
+    text-align: center;
+    font-size: 40px;
+    align-content: center;
+}
+.C{
+    background-color: lightseagreen;
+    height: 714px;
+    width: 100%;
+    text-align: center;
+    font-size: 60px;
+    align-content: center;
+}
+
+
+
+
+.CO{
+    background-color: bisque;
+    width: 80%;
+    height: 100px;
+    display: inline;
+    float: right;
+    text-align: center;
+    font-size: 40px;
+    align-content: center;
+}
+.num{
+    background-color: lavender;
+    width: 100%;
+    height: 238px;
+    text-align: center;
+    font-size: 30px;
+    align-content: center;
+}
+.RS{
+    background-color: purple;
+    width: 100%;
+    height: 238px;
+    text-align: center;
+    font-size: 30px;
+    align-content: center;
+}
+.Ubiacion{
+    background-color: lightpink;
+    width: 100%;
+    height: 238px;
+    text-align: center;
+    font-size: 30px;
+    align-content: center;
+}
+
+
+
+.Nhistoria{
+    background-color: red;
+    width: 80%;
+    height: 100px;
+    display: inline;
+    float: left;
+    text-align: center;
+    font-size: 40px;
+    align-content: center;
+    
+}
+.hist{
+    background-color: lightcoral;
+    width: 100%;
+    height: 714px;
+    text-align: center;
+    font-size: 60px;
+    align-content: center;
+}
+
+
+
+
+
+
+.Nestrenos{
+    background-color: blue;
+    width: 80%;
+    height: 100px;
+    display: inline;
+    float: left;
+    text-align: center;
+    font-size: 40px;
+    align-content: center;
+}
+
+.tablaestrenos{
+    background-color:red;
+    width: 70%;
+    height: 70px;
+    display: inline;
+    float: left;
+    text-align: center;
+    font-size: 40px;
+}
+.Horariotabla{
+    background-color: purple;
+    width: 30%;
+    height: 80px;
+    display: inline;
+    float: right;
+    text-align: center;
+    font-size: 40px;
+}
+.estreno1{
+    background-color: lightblue;
+    width: 100%;
+    height: 200px;
+    text-align: center;
+    font-size: 40px;
+    align-content: center;
+}
+.estreno2{
+    background-color: lightgreen;
+    width: 100%;
+    height: 235px;
+    text-align: center;
+    font-size: 40px;
+    align-content: center;
+}
+.estreno3{
+    background-color: lightpink;
+    width: 100%;
+    height: 279px;
+    text-align: center;
+    font-size: 40px;
+    align-content: center;
+}
+.Horario1{
+    background-color: yellow;
+    width: 100%;
+    height: 200px;
+    text-align: center;
+    font-size: 30px;
+    align-content: center;
+}
+.Horario2{
+    background-color: orange;
+    width: 100%;
+    height: 235px;
+    text-align: center;
+    font-size: 30px;
+    align-content: center;
+}
+.Horario3{
+    background-color: rgb(122, 30, 45);
+    width: 100%;
+    height: 279px;
+    text-align: center;
+    font-size: 30px;
+    align-content: center;
 }
