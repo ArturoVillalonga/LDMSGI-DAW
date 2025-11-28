@@ -1,21 +1,18 @@
 
 body{
     background-color: grey;
-    margin-top: -54px;
-    margin-left: -1px;
-    margin-right: -1px;
-    margin-bottom: -20px;
+
 }
 .header{
     background-color: lightblue;
-    height: 125px;
     text-align: center;
     font-size: 40px;
+    
 }
+h1{margin: 0px;}
 .contenedor{
     background-color: black;
     width: 65%;
-    display: inline;
     float: left;
     text-align: center;
     font-size: 30px;
@@ -23,7 +20,6 @@ body{
 .tabla{
     background-color: red;
     width: 35%;
-    display: inline;
     float: right;
     text-align: center;
     font-size: 30px;
@@ -31,7 +27,7 @@ body{
 .carteleraDestacada{
     background-color: yellow;
     height: 240px;
-    align-content: center;ç
+    align-content: center;
     
 }
 .cartelera{
@@ -45,7 +41,7 @@ body{
     align-content: center;
 }
 .historia{
-    background-color: purple;
+    background-color: lightseagreen;
     height: 180px;
     align-content: center;
 }
