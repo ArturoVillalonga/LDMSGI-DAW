@@ -1,0 +1,14 @@
+body {
+background-color: lightblue;
+font-family: Arial, sans-serif;
+padding: 20px;
+}
+@media (max-width: 900px) {
+body {
+background-color: lightgreen;
+}
+}
+@media (max-width: 600px) {
+body {
+background-color: lightpink;
+}

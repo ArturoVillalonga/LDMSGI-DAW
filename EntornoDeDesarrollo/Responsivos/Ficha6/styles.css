@@ -1,0 +1,12 @@
+body {
+font-family: Arial, sans-serif;
+background-color: lightyellow;
+padding: 16px;
+}
+
+@media (max-width: 768px) {
+body {
+background-color: #eee;
+padding: 40px;
+}
+}

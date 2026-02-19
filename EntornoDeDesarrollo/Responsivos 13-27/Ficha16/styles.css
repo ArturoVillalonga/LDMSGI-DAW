@@ -1,0 +1,21 @@
+.grid {
+display: grid;
+grid-template-columns: repeat(4, 1fr);
+gap: 20px;
+}
+.item {
+background: #fc6e6e;
+padding: 30px;
+text-align: center;
+font-family: Arial, sans-serif;
+}
+@media (max-width: 1024px) {
+.grid {
+grid-template-columns: repeat(2, 1fr);
+}
+}
+@media (max-width: 600px) {
+.grid {
+grid-template-columns: 1fr;
+}
+}

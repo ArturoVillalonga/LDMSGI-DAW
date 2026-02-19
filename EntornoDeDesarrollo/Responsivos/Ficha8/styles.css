@@ -1,0 +1,24 @@
+.grid {
+display: flex;
+gap: 20px;
+flex-wrap: wrap;
+}
+.item {
+width: 29%;
+background: lightblue;
+padding: 30px;
+text-align: center;
+}
+
+@media (max-width: 1024px) {
+.grid {
+flex-direction: column;
+align-items: center;
+}
+.iten {
+width: 80%;
+}
+@media (max-width: 600px) {
+.item {
+width: 100%;
+}

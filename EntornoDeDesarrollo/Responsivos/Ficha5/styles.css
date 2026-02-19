@@ -1,0 +1,16 @@
+.menu {
+display: flex;
+list-style: none;
+gap: 20px;
+padding: 0;
+margin: 0;
+}
+.menu a { text-decoration: none; }
+
+@media (max-width: 600px) {
+    .menu {
+        flex-direction: column;
+        gap: 10px;
+        text-align: left;
+    }
+}

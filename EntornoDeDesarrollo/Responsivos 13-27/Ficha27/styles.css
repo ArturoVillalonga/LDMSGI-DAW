@@ -1,0 +1,8 @@
+.layout { display: flex; gap: 20px; }
+.principal { width: 70%; padding: 20px; background: #ddd; }
+.lateral { width: 30%; padding: 20px; background: #eee; }
+
+@media (max-width:600px){
+    .lateral { display: none; }
+    .principal { width: 100%; }
+}

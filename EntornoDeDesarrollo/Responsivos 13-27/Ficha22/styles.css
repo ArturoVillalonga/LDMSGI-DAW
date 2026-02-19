@@ -1,0 +1,7 @@
+.top { display: flex; align-items: center; gap: 20px; padding: 20px; background: #eee; }
+.menu a { margin-right: 15px; text-decoration: none; font-family: Arial, sans-serif; }
+.burger { display: none; padding: 10px 14px; }
+@media (max-width: 600px) {
+.menu { display: none; }
+.burger { display: inline-block; }
+}

@@ -1,0 +1,12 @@
+.caja {
+height: 300px;
+padding: 40px;
+background: lightcoral;
+}
+
+@media (max-width: 600px) {
+.caja {
+height: auto;
+padding: 20px;
+}
+}

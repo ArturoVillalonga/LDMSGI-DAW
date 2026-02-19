@@ -1,0 +1,20 @@
+.fila { display: flex; flex-wrap: wrap; gap: 20px; }
+.col {
+width: 100%;
+background: #f4f4f4;
+padding: 30px;
+text-align: center;
+box-sizing: border-box;
+font-family: Arial, sans-serif;
+}
+@media (min-width: 768px) {
+    .fila {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+@media (min-width: 1200px) {
+    .fila {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}

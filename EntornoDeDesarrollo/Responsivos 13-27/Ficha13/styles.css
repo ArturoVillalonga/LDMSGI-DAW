@@ -1,0 +1,15 @@
+.caja {
+padding: 60px;
+background: lightsteelblue;
+font-family: Arial, sans-serif;
+}
+@media (max-width: 900px) {
+.caja {
+padding: 40px;
+}
+}
+@media (max-width: 600px) {
+.caja {
+padding: 20px;
+}
+}

@@ -1,0 +1,9 @@
+body { font-family: Arial, sans-serif; margin: 0; }
+header { background: #ddd; padding: 20px; }
+@media (max-width: 1024px) {
+    main { padding-top: 80px; }
+header { position: fixed; top: 0; width: 100%º; }
+}
+@media (min-width: 1024px) {
+header { top: 0; width: 100%º; }
+}

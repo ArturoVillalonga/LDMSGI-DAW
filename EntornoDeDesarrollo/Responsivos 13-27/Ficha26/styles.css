@@ -1,0 +1,21 @@
+.galeria { display: flex; flex-wrap: wrap; gap: 20px; }
+.foto {
+width: 25%;
+background: #ddd;
+padding: 40px 0;
+text-align: center;
+font-family: Arial, sans-serif;
+box-sizing: border-box;
+}
+@media (max-width: 1024px) {
+.foto {
+    
+width: 50%;
+
+}
+}
+@media (max-width: 600px) {
+.foto {
+width: 100%;
+}
+}

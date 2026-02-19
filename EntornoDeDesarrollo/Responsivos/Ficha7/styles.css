@@ -1,0 +1,19 @@
+.contenedor {
+display: flex;
+gap: 20px;
+}
+.caja {
+width: 33.33%;
+background-color: #ddd;
+padding: 20px;
+text-align: center;
+}
+
+@media (max-width: 768px) {
+    .contenedor {
+        flex-direction: column;
+    }
+    .caja {
+        width: 100%;
+    }
+}

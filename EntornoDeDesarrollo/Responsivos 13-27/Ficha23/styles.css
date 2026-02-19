@@ -1,0 +1,11 @@
+.hero {
+min-height: 80vh;
+background: lightcoral;
+padding: 30px;
+font-family: Arial, sans-serif;
+}
+@media (max-width: 600px) {
+    .hero {
+        min-height: 50vh;
+    }
+}

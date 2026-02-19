@@ -1,0 +1,6 @@
+body { font-family: Arial, sans-serif; padding: 20px; }
+img { width: 700px; }
+@media (max-width: 900px) {
+img { width: 100%; }
+height: auto;
+}
